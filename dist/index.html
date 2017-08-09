@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>James Lave</title>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet"
+    href="//cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<body>
+  <div class="container-fluid hero-container">
+
+    <div class="row fixed-top">
+      <div class="col">
+        <nav id="navbar"
+          class="nav nav-pills justify-content-center">
+          <a class="nav-link"
+            href="#services">Services</a>
+          <a class="nav-link"
+            href="#projects">Projects</a>
+          <a class="nav-link nav-logo"
+            href="#">
+            <h1 class="display display-5">JL</h1>
+          </a>
+          <a class="nav-link"
+            href="#about">About</a>
+          <a class="nav-link"
+            href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="fake-nav"></div>
+
+    <div id="hero-content"
+      class="row justify-content-center">
+      <div id="hero-text"
+        class="col-xs-12 col-sm-8">
+        <h1 class="display display-3"><i class="fa fa-angle-right"></i> Hi, I'm James</h1>
+        <p class="lead">Chicago-based full-stack web developer who can design and build your next big idea</p>
+      </div>
+    </div>
+
+    <div id="hero-footer"
+      class="row justify-content-center mb-4">
+      <div class="col-12 text-center">
+        <a id="call-down"
+          href="#services">
+          <i class="fa fa-chevron-down fa-2x animated bounceInDown"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <section id="services">
+    <div class="container my-5">
+      <div class="row justify-content-center mb-5">
+        <div class="col text-center">
+          <h1 class="display display-5">How Can I Help You?</h1>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <h2>Develop</h2>
+          <img class="service-icon my-3"
+            src="img/icons/code.svg"
+            alt="">
+          <p>If you've never had a web presence or your current site is showing its age, let me create a modern static site
+            or dynamic app to fit your business needs and grow your market.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <h2>Design</h2>
+          <img class="service-icon my-3"
+            src="img/icons/design.svg"
+            alt="">
+          <p>Most web traffic now comes from mobile devices, and a site which doesn't work on small screens can send customers
+            elsewhere. I can build you a web experience which works on any device size.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <h2>Host</h2>
+          <img class="service-icon my-3"
+            src="img/icons/host.svg"
+            alt="">
+          <p>A website is only useful if it's online, but you've got more important things to worry about. I can set up and
+            manage your server or shared hosting to ensure that your message is always visible.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container my-5">
+      <div class="row justify-content-center mb-5">
+        <div class="col text-center">
+          <h1 class="display display-5">What Can I Do?</h1>
+        </div>
+      </div>
+    </div>
+    <div id="project-slider"
+      class="container-fluid">
+      <div class="row d-flex align-items-center py-5">
+        <div class="slider-control col-2 text-center">
+          <i id="slider-prev"
+            class="fa fa-chevron-left"></i>
+        </div>
+        <!-- slide 0 -->
+        <div class="active slide col-8 animated"
+          data-project="twote">
+          <div class="row">
+            <div class="col-xs-12 col-md-5 text-center d-flex align-items-center">
+              <img class="project-img img-fluid img-thumbnail"
+                src="./img/projects/twote/thumb.png"
+                alt="">
+            </div>
+            <div class="project-container col-xs-12 col-md-7 text-center mt-3"
+              style="font-size: 2em;">
+              <div class="proj-title">
+                <h1 class="display display-4">Twote</h1>
+              </div>
+              <div class="proj-desc">
+                <p class="lead">Some description here</p>
+              </div>
+              <div class="proj-tech-container">
+                <i class="devicon-html5-plain colored"></i>
+                <i class="devicon-css3-plain colored"></i>
+                <i class="devicon-javascript-plain colored"></i>
+              </div>
+              <div class="proj-btn-container">
+                <div class="btn-group">
+                  <a href="//github.com/jlave2/projects"
+                    target="_blank"
+                    class="btn btn-secondary">
+                  <i class="fa fa-github mr-2"></i>GitHub</a>
+                  <a href="#"
+                    target="_blank"
+                    class="btn btn-secondary">
+                  <i class="fa fa-desktop mr-2"></i>Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /slide 0 -->
+        <!-- slide 1  -->
+        <div class="slide col-8 animated"
+          data-project="weatherr">
+          <div class="row">
+            <div class="col-xs-12 col-md-5 text-center d-flex align-items-center">
+              <img class="project-img img-fluid"
+                src="./img/projects/weatherr/thumb.png"
+                alt="">
+            </div>
+            <div class="project-container col-xs-12 col-md-7 text-center mt-3"
+              style="font-size: 2em;">
+              <div class="proj-title">
+                <h1 class="display display-4">Weatherr</h1>
+              </div>
+              <div class="proj-desc">
+                <p class="lead">Some description here</p>
+              </div>
+              <div class="proj-tech-container">
+                <i class="devicon-html5-plain colored"></i>
+                <i class="devicon-css3-plain colored"></i>
+                <i class="devicon-javascript-plain colored"></i>
+              </div>
+              <div class="proj-btn-container">
+                <div class="btn-group">
+                  <a href="//github.com/jlave2/projects"
+                    target="_blank"
+                    class="btn btn-secondary">
+                  <i class="fa fa-github mr-2"></i>GitHub</a>
+                  <a href="#"
+                    target="_blank"
+                    class="btn btn-secondary">
+                  <i class="fa fa-desktop mr-2"></i>Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /slide 1 -->
+        <div class="slider-control col-2 text-center">
+          <i id="slider-next"
+            class="fa fa-chevron-right"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container my-5">
+      <div class="row justify-content-center mb-5">
+        <div class="col text-center">
+          <h1 class="display display-5">Who Am I?</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-5 text-center">
+          <img src="img/portrait2.jpg"
+            alt="Portrait"
+            class="portrait animated flipInY mb-3">
+        </div>
+        <div class="col-12 col-lg-7">
+          <p>I've always had a passion and knack for solving problems using technology.</p>
+
+          <p>Nam in discere epicurei, populo putent no duo, pri oratio placerat ad. Vel at vidit error aliquid, quot primis moderatius sea cu, pri regione tincidunt in. Ad dicta legendos mel. Ne nostro phaedrum quo, mei id justo soleat iisque. Cu nec affert epicurei, quo ipsum feugiat aliquando ut.</p>
+
+          <p>Oratio ornatus commune te est. Eu vix dicta volumus, justo probatus tacimates eu usu. Ad laoreet torquatos constituam vix, ea sed tempor postea, omnesque invenire intellegebat qui te. Vel ea magna utroque epicuri, iudicabit repudiare sea ne. Fabulas adolescens eos ut, pri et omittam vituperatoribus.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container my-5">
+      <div class="row justify-content-center mb-5">
+        <div class="col text-center">
+          <h1 class="display display-5">Contact Me!</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div id="contact-form-container"
+          class="col-xs-12 col-md-8 col-xl-6">
+          <form id="contact-form">
+            <div class="form-group">
+              <label>Name*</label>
+              <input id="contact-name"
+                type="text"
+                class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Email*</label>
+              <input id="contact-email"
+                type="email"
+                class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Message*</label>
+              <textarea id="contact-message"
+                class="form-control"
+                rows="3"></textarea>
+              <small class="form-text text-muted">Please describe your project and budget.</small>
+            </div>
+            <button id="submit-contact"
+              type="submit"
+              class="btn btn-secondary">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/zenscroll/4.0.0/zenscroll-min.js"></script>
+  <script src="bundle.min.js"></script>
+  <script>
+    zenscroll.setup(250, 110)
+  </script>
+</body>
+
+</html>
