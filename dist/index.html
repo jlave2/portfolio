@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-  <title>James Lave</title>
-  <meta charset="UTF-8">
+  <title>James Lave - Web Developer</title>
+  <meta charset="utf-8">
   <meta name="viewport"
     content="width=device-width, initial-scale=1">
   <link rel="stylesheet"
@@ -44,9 +44,10 @@
     <div id="hero-content"
       class="row justify-content-center">
       <div id="hero-text"
-        class="col-xs-12 col-sm-8">
-        <h1 class="display display-3"><i class="fa fa-angle-right"></i> Hi, I'm James</h1>
-        <p class="lead">Chicago-based full-stack web developer who can design and build your next big idea</p>
+        class="col-xs-12 col-md-8">
+        <h1 class="display display-4"><i class="fa fa-angle-right"></i> <span id="typed-string">Hi,&nbsp;I'm&nbsp;James </span><span id="blinking-cursor">_</span></h1>
+        <p id="hero-subtitle"
+          class="lead">( Chicago-based full-stack web developer who can design and build your next big idea )</p>
       </div>
     </div>
 
@@ -118,7 +119,7 @@
           data-project="twote">
           <div class="row">
             <div class="col-xs-12 col-md-5 text-center d-flex align-items-center">
-              <img class="project-img img-fluid img-thumbnail"
+              <img class="project-img img-fluid"
                 src="./img/projects/twote/thumb.png"
                 alt="">
             </div>
@@ -204,18 +205,23 @@
           <h1 class="display display-5">Who Am I?</h1>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12 col-lg-5 text-center">
-          <img src="img/portrait2.jpg"
-            alt="Portrait"
-            class="portrait animated flipInY mb-3">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-12 col-md-4 col-lg-4 text-center">
+          <img src="img/portrait3.jpg"
+            alt=""
+            class="portrait mb-3">
         </div>
-        <div class="col-12 col-lg-7">
-          <p>I've always had a passion and knack for solving problems using technology.</p>
+        <div class="col-12 col-md-8 col-lg-6">
+          <p>I've always had a deep curiosity for how things work, as well as a passion for solving problems using technology.
+            These traits have led to a graduate degree in physics and coursework in computer science.</p>
 
-          <p>Nam in discere epicurei, populo putent no duo, pri oratio placerat ad. Vel at vidit error aliquid, quot primis moderatius sea cu, pri regione tincidunt in. Ad dicta legendos mel. Ne nostro phaedrum quo, mei id justo soleat iisque. Cu nec affert epicurei, quo ipsum feugiat aliquando ut.</p>
+          <p>Although I'm familiar with Python, C++, and Java, my true love is JavaScript. To share my excitement for the language,
+            I created
+            <a href="https://jsfor.fun">JS for Fun!</a>, a platform for articles and video tutorials on all aspects of being
+            a JavaScript developer. I also write about my journey on <a href="https://medium.com/@jameslave">Medium</a>.</p>
 
-          <p>Oratio ornatus commune te est. Eu vix dicta volumus, justo probatus tacimates eu usu. Ad laoreet torquatos constituam vix, ea sed tempor postea, omnesque invenire intellegebat qui te. Vel ea magna utroque epicuri, iudicabit repudiare sea ne. Fabulas adolescens eos ut, pri et omittam vituperatoribus.</p>
+          <p>When not learning the latest web technologies, I'm spending time with my extremely smart and lovely wife, listening
+            to a variety of music from the past 100 years, playing guitar, or some combination of all three.</p>
         </div>
       </div>
     </div>
@@ -261,6 +267,14 @@
       </div>
     </div>
   </section>
+
+  <footer class="container-fluid">
+    <div class="row align-items-center justify-content-center">
+      <a href="https://github.com/jameslave"><i class="fa fa-github mx-3"></i></a>
+      <a href="https://twitter.com/realjameslave"><i class="fa fa-twitter mx-3"></i></a>
+      <a href="https://medium.com/@jameslave"><i class="fa fa-medium mx-3"></i></a>
+    </div>
+  </footer>
 
   <script src="//cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/zenscroll/4.0.0/zenscroll-min.js"></script>
